@@ -1,0 +1,53 @@
+When the function call is made, the arguments are passed to the function. The arguements can be passed to function in two ways
+
+1) Pass by value
+
+-> Here the value of the parameter is passed to the function
+-> This value is copied into other variable in the functin
+-> Any changes made to this variable will not effect the original value in calling function
+
+ex.
+
+#include<stdio.h>
+
+int main()
+{
+  while(1)
+   {     
+     data_acq(int a, int b, int c);
+   }
+}
+
+void data_acq(int x, int y, int z)
+{
+.....
+}
+
+so, in the above function whenever the function is called, the values of a, b, c are copied into x, y, z respectively. Any changes made to x, y, z will not effect a, b, c respectively
+
+
+2) Pass by reference
+
+-> Here instead of passing the values of variables, the address of variables is passed to function
+-> Any changes made to the variables in the function will effect the original value in calling function
+
+ex.
+
+#include<stdio.h>
+
+int main()
+{
+  while(1)
+   {
+     data_acq(int &a, int &b, int &c);
+   }
+}
+
+void data_acq(int *x, int *y, int *z)
+{
+.....
+}
+
+so, in the above function whenever the function is called, the address  of a, b, c is passed to the pointers in the function. Any changes made to pointer variables x, y, z will effect original values of 
+a, b, c
+
