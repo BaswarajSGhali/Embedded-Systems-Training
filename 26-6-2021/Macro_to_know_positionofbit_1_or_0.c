@@ -6,7 +6,6 @@
 
 #define check(x, y)                                     \
 ({                                                      \
-    float answer;                                       \
      if((num) & (1 << pos))                             \
         printf("1");                                    \
      else                                               \
