@@ -4,7 +4,7 @@
 
 #include<stdio.h>
 
-#define SUM_A(x, y)                                     \
+#define check(x, y)                                     \
 ({                                                      \
     float answer;                                       \
      if((num) & (1 << pos))                             \
@@ -20,6 +20,6 @@ int main()
   int pos = 4;
   int result;
 
-  SUM_A(num, pos);
+  check(num, pos);
 }
 
