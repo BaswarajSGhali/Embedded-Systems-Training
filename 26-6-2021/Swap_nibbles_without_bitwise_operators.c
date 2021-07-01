@@ -27,13 +27,13 @@ int main()
    unsigned char p, q, result;
 
     p = a / 16;
-    printf("\n%x\n", p);
+    //printf("\n%x\n", p);
 
     q = a * 16;
-    printf("\n%x\n", q);
+    //printf("\n%x\n", q);
 
     result = p + q;
-    printf("\n%x\n", result);
+    //printf("\n%x\n", result);
     printf("\n");
 
     decimal_to_binary(result);
@@ -53,3 +53,15 @@ int decimal_to_binary(int n)
 	printf("%d ", temp);
 
 }
+
+/*
+
+output : 
+
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/26-6-2021$ gcc Swap_nibbles_without_bitwise_operators.c
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/26-6-2021$ ./a.out 
+1 1 1 1 0 0 0 
+
+1 0 0 0 0 1 1 1
+
+*/
