@@ -15,4 +15,12 @@ int main()
     power_of_2_or_not(num);
 }
 
+/*
 
+output :
+
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/28-6-2021$ gcc Program_to_find_power_of_2.c
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/28-6-2021$ ./a.out 
+It is not power of 2
+
+*/
