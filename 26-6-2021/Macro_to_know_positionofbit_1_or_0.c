@@ -22,3 +22,12 @@ int main()
   check(num, pos);
 }
 
+/*
+
+output :
+
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/26-6-2021$ gcc Macro_to_know_positionofbit_1_or_0.c  
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/26-6-2021$ ./a.out 
+1
+
+*/
