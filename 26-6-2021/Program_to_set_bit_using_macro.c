@@ -21,4 +21,14 @@ int main()
 }
 
 
+/*
 
+output : 
+
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/26-6-2021$ gcc Program_to_set_bit_using_macro.c 
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/26-6-2021$ ./a.out 
+0x12345678
+
+0x12345679
+
+*/
