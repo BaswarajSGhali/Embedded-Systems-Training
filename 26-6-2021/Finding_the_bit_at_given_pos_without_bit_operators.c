@@ -62,3 +62,15 @@ void decimal_to_binary(char n, int pos)
 
 
 }
+
+/*
+
+output: 
+
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/26-6-2021$ gcc Finding_the_bit_at_given_pos_without_bit_operators.c
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/26-6-2021$ ./a.out 
+Enter the position
+6
+bit at position 6 is 1
+
+*/
