@@ -13,3 +13,14 @@ int main()
 
 
 }
+
+
+/*
+
+output :
+
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/28-6-2021$ gcc check_array_members_evenrepeat_or_oddrepeat.c 
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/28-6-2021$ ./a.out 
+11
+
+*/
