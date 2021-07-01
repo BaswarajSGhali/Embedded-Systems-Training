@@ -14,3 +14,11 @@ int main()
 
 }
 
+/*
+output :
+
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/28-6-2021$ gcc Program_to_clear_nbits_at_from_given_pos.c 
+basavaraj@basavaraj-VirtualBox:~/Embedded_Training/28-6-2021$ ./a.out 
+0x12345608
+ 
+*/
