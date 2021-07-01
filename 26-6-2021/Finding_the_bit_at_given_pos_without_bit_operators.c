@@ -25,7 +25,7 @@ int main()
 {
     int pos;
     abc p;
-    printf("%zu\n", sizeof(p));
+    
 
     p.num = 0x12345678;
 
@@ -49,7 +49,7 @@ int main()
 
 void decimal_to_binary(char n, int pos)
 {
-    printf("%x\n", n);
+   
     int temp;
 
     for(int i = 0; i <= pos; i++)
